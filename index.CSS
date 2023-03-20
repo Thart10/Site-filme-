@@ -1,0 +1,303 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans&family=Inter:wght@300&display=swap');
+body{
+    margin:0;
+    padding: 0;
+    font-family: "Inter", Arial, Helvetica, sans-serif;
+}
+
+a {
+  text-decoration: none;
+  color:#fff 
+}
+body{
+    
+    background-color: #011121;
+}
+
+
+   .search-box{
+    position: relative;
+    top: -30%;
+    left: 5%;
+    transform: translate(30%, 5%);
+    background-color: #3d3d3b;    
+    height: 40px;
+    border-radius: 40px;
+    padding: 3px;
+
+   }
+    
+    
+
+.search-btn{
+    color: #00a8ff;
+    float: right;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background: #6c6968;
+    display: flex;
+    justify-content: center;
+  align-items: center;
+  transition: 10s;
+  text-decoration: none;
+
+}
+
+.search-txt {
+    border: none;
+    background: none;
+    outline: none;
+    float: left;
+    padding: 0;
+    color: white;
+    font-size: 18px;
+    transition: 0, 4s;
+    line-height: 40px;
+    width:0px;
+
+}
+
+.search-box:hover > .search-txt{
+    width: 240px;
+    padding: 0 6px;
+}
+
+.search-box:hover > .search-btn {
+    background: #fff;
+}  
+
+.navbar-container {
+    width: 100%;
+    height: 90px;
+    background-color: #011121;
+    padding: 0 2rem;
+    position: relative;
+    box-sizing: border-box;
+    
+}
+
+.logo{   
+    display: flex;
+    margin-left: -270%;
+    margin-top: 50%;
+    height: 30px;
+    width: 30px;    
+    background: rgb(37, 37, 37);
+    position: relative;
+    transform: translate(-50%, -50%);
+    background-color: #011121;
+
+}
+
+
+.navbar-items {
+    font-size: 20px;
+    padding: 30px;
+    margin-top: 1px;
+    height: 40%;  
+    width: -100%;   
+    color: #fff;      
+    display: flex;
+    justify-content:center;      
+    
+}
+
+
+
+.navbar-items li{
+display: inline-block;
+text-transform: uppercase;
+margin-left: 20px;
+}
+
+.card img {   
+    min-width: 100%;
+    width: auto;
+    height: 100%;
+}
+
+.card{
+border: 1px rgb(243, 179, 5) solid;
+ width: 160px;
+ height: 270px;
+ margin: 15px;
+ background-color: #000000;
+ border-radius: 20px;
+ overflow: hidden;
+ box-shadow: 0px 0px  10px rgba(0,0,0,0.7) ;
+
+}
+
+.card-header {
+    width: 100%;
+    height: 220px;
+    overflow: hidden;
+   
+}
+
+.card-body {
+    height: 170px;
+    padding: 15px;
+    text-align: center;
+    font-family: sans-serif;
+}
+
+.card-footer {   
+  
+    text-align: center;
+    background-color: #000;
+    
+}
+.card-footer a{
+    color: #fff;
+    text-decoration: none;
+}
+
+.container-card{
+    display: flex;
+    justify-content:space-evenly;
+}
+
+.header-filmes{
+    font-size: 35px; 
+    text-align: center;   
+    color: rgb(227, 36, 10);
+    margin-top: 20px;
+    font-family: 'DM Sans', sans-serif;
+   
+}
+
+
+.box-thor{
+display:flex;
+
+ 
+}
+
+.thor-img img{
+    padding: 30px;
+    width: 350px;
+    border-radius: 50px;
+        
+ 
+    
+   
+}
+
+.thor-img  {  
+    max-width: auto;  
+    min-width: auto;
+   
+   
+}
+
+.texto-thor{    
+    margin: 25px;
+    padding: 10px;   
+    width: 350px; 
+    display: flex; 
+    color: #fff;
+       
+         }
+
+
+.box-thor{
+    width: 100;
+    
+    
+}
+
+.box-galery img{  
+    width: 80px;
+    margin: 5px;
+    border-radius: 20px;
+    border: 1px solid rgb(247, 103, 7);
+    
+}
+  .box-galery figure{    
+    width: 300px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 20px;
+    padding: 5px;
+    margin-top: 30px;
+   
+  }  
+   .texto-thor li{
+    color: #eef0f1;
+    display: flex;
+    font-size: 20px;
+    text-align: justify;
+   }
+ 
+   .texto-thor span{
+    color: blue;
+   }
+.texto-thor h3, h2 {    
+    color: #e9e910;
+   
+    
+}
+.texto-thor b{
+    color: rgb(237, 6, 6);
+}
+
+.texto-thor p{
+    text-align: justify;
+    font-size: 15px;
+    
+}
+
+.icon-footer{
+    width: 100%;
+    height: 100px;
+    display: flex;
+    margin: 5px;  
+    justify-content: center; 
+   
+}
+
+.icon-footer img {
+display: flex;  
+height: 100px;
+margin-left: -2px;   
+
+}
+
+
+.footer-comentario{
+margin-left: -115px;   
+}
+
+
+
+.footer-form{
+    margin-right: 20PX;
+    padding: 3px;
+}
+
+
+footer{
+    margin-top: 805px;
+   
+}
+.Fd{
+    color: #fff;
+    display: flex;
+    justify-content: center;
+   
+}
+.comentario {    
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+.botton1{
+    width: 50px;
+    height: 30px;
+    margin-top: 45px;
+    border-radius: 10%;
+    
+}
